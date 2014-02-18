@@ -5,6 +5,8 @@ Query to find application components with a particular build option
 
 Refer to: [build-utilisation.sql](build-utilisation.sql)
 
+Just add filters so suit what you are searching for.
+
 ###Identify relevant views:
 
 ```sql
