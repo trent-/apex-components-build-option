@@ -71,4 +71,7 @@ from (
   union all
   select workspace, application_id, 'Tab set: ' || tab_set || '; Tab name: ' || tab_name || '; Tab label: ' || tab_label info, 'Tabs' component_type , build_option
   from apex_application_tabs
+  union all
+  select workspace, application_id, 'Page Id: ' || page_id || '; Combined file URL: ' || combined_file_url info, 'Concatenated Files' component_type, build_option
+  from APEX_APPL_CONCATENATED_FILES
 )
